@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 type ToastProps = {
+  id?: number;
   title?: string;
   description?: string;
   type?: 'default' | 'success' | 'error' | 'warning';

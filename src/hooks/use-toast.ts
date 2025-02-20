@@ -6,6 +6,7 @@ type ToastProps = {
   description?: string;
   type?: 'default' | 'success' | 'error' | 'warning';
   duration?: number;
+  action?: React.ReactNode;
 };
 
 export function useToast() {

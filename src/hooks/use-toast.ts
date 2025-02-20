@@ -4,7 +4,7 @@ type ToastProps = {
   id?: number;
   title?: string;
   description?: string;
-  type?: 'default' | 'success' | 'error' | 'warning';
+  type?: 'background' | 'foreground';
   duration?: number;
   action?: React.ReactNode;
 };

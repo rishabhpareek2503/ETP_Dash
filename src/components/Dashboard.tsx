@@ -15,6 +15,7 @@ import { TankData as ChemicalTankData } from "../types/ChemicalTankData"
 import * as ChemicalTankCalculation from "../utils/ChemicalTankCalculation"
 import { PlantData } from "../types/PlantData"
 import equipmentInitialState from '../data/equipmentInitialState'
+import { Button } from "@/components/ui/button"
 
 interface Equipment {
   id: string
